@@ -1,0 +1,30 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  height: 8em;
+  width: auto;
+  margin: 1.5em 1em;
+  padding: 1em;
+  background-color:#1C364A;
+  border-radius: 0.5em;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list-item-title {
+  color: white;
+}
+
+.list-item-title text {
+  text-transform: capitalize;
+  font-size: large;
+  font-weight: 400;
+}
+
+.list-item-image-container {
+  box-sizing: border-box;
+  height: 7em;
+  width: 7em;
+  margin-left: auto;
+}

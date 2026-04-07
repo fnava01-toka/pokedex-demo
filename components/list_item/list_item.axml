@@ -1,0 +1,12 @@
+<navigator url="/pages/pokemon_data/pokemon_data?name={{title}}&sprite={{img}}">
+  <view class="list-item-container">
+    <text class="list-item-title">
+      <text>
+        {{title}}
+      </text>
+    </text>
+    <view class="list-item-image-container">
+      <image mode="aspectFill" src="{{img}}" />
+    </view>
+  </view>
+</navigator>

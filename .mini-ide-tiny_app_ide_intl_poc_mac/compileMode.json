@@ -1,0 +1,9 @@
+{
+  "modes": [
+    {
+      "title": "pokemon data",
+      "page": "pages/pokemon_data/pokemon_data",
+      "pageQuery": "name=bulbasaur&sprite=https%3A%2F%2Fraw.githubusercontent.com%2FPokeAPI%2Fsprites%2Fmaster%2Fsprites%2Fpokemon%2F1.png"
+    }
+  ]
+}

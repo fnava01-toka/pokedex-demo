@@ -1,0 +1,10 @@
+{
+  "subPackageBuildType": "shared",
+  "pages": [
+    "pages/index/index",
+    "pages/pokemon_data/pokemon_data"
+  ],
+  "window": {
+    "defaultTitle": "Pokedex"
+  }
+}

@@ -1,0 +1,34 @@
+<view class="pokemon-data-container">
+  <text>
+    {{pokemonName}}
+  </text>
+  <view class="pokemon-data-sprite-container">
+    <image mode="scaleToFill" src="{{pokemonSpriteUrl}}"/>
+  </view>
+  <view class="pokemon-data-info-container">
+    <view class="pokemon-data-param-list">
+      <text>Base experience:</text>
+      <view class="pokemon-data-params">
+        <text>{{pokemonData.baseExperience}}</text>
+      </view>
+    </view>
+    <view class="line"/>
+    <view class="pokemon-data-param-list">
+      <text>Base stats:</text>
+      <view class="pokemon-data-params">
+        <view a:for="{{ pokemonData.baseStats }}">
+          <text>{{item.stat.name}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="line"/>
+    <view class="pokemon-data-param-list">
+      <text>Types:</text>
+      <view class="pokemon-data-params">
+        <view a:for="{{pokemonData.types}}">
+          <text> {{item.type.name}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
